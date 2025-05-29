@@ -32,7 +32,7 @@ class BankAccountDC
 		}
 		setbalance( float bal)
 		{
-			*balance = bal;
+			*balance += bal;
 		}
 		void display() const
 		{
